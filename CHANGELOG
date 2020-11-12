@@ -1,3 +1,6 @@
+- 2.0.0
+  * Support of Django 3.0. Removed support for plder versions
+
 - 1.2.1
   * django.utils.six is deprecated in Django 3.0 (jaychoo)
 

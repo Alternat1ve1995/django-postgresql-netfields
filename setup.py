@@ -15,8 +15,8 @@ def get_long_description():
 
 requirements = [
     'netaddr',
-    'django>=1.8',
-    'six',
+    'Django>=3.0.11',
+    'psycopg2-binary>=2.8.6'
 ]
 
 if sys.version_info.major == 2:
@@ -24,11 +24,11 @@ if sys.version_info.major == 2:
 
 setup(
     name='django-netfields',
-    version='1.2.1',
+    version='2.0.0',
     license='BSD',
     description='Django PostgreSQL netfields implementation',
     long_description=get_long_description(),
-    url='https://github.com/jimfunk/django-postgresql-netfields',
+    url='https://github.com/Alternat1ve1995/django-postgresql-netfields',
 
     author=u'James Oakley',
     author_email='jfunk@funktronics.ca',
